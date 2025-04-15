@@ -1,0 +1,12 @@
+.box{
+    width: 10px;
+    height: 10px;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
