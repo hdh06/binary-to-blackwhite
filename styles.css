@@ -10,3 +10,13 @@
 .black{
     background-color: black;
 }
+
+#image{
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 0px;
+    align-content: flex-start;
+}
