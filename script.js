@@ -1,7 +1,11 @@
 function convert(){
     const x = document.getElementById("binary_code").value;
     let div = document.createElement("div");
-    div.classList.add("black", "box");
+    if (Math.floor(Math.random() * 2) == 0)
+        div.classList.add("black", "box");
+    else{
+        div.classList.add("white", "box");
+    }
     document.getElementById("image").appendChild(div);
     // alert(document.getElementById("binary_code").value);
     // alert(document.getElementById("height").value);
