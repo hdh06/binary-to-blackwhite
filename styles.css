@@ -11,6 +11,15 @@
     background-color: black;
 }
 
+.red {
+    background-color: red;
+    background-image: 
+        repeating-linear-gradient(-45deg, white 0, white 1px, transparent 1px, transparent 2.5px);
+    ;
+    outline: 1px solid red;
+
+}
+
 #image{
     margin: 5px;
     width: 50px;
