@@ -1,7 +1,15 @@
 document.getElementById("binary_code").innerHTML = "101010111";
 
 function convert(){
-    const x = new String(document.getElementById("binary_code").value);
+    let x = new String(document.getElementById("binary_code").value);
+
+    let tmp = "";
+    for (let i = 0; i < x.length; i++){
+        if (x[i] == '0' || x[i] == '1')
+            tmp += x[i];
+    }
+
+    x = tmp;
 
     let col = Math.ceil(Math.sqrt(x.length));
 
